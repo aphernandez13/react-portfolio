@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
+import About from "./pages/about";
+
 function App() {
   return (
     <BrowserRouter>
@@ -14,9 +16,7 @@ function App() {
     </BrowserRouter>
   )
 }
-function About() {
-  return <h1>Welcome to about!!!</h1>;
-}
+
 function Portfolio() {
   return <h1>Welcome to portfolio!!!</h1>;
 }
