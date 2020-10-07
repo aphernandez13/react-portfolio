@@ -21,6 +21,6 @@ function Portfolio() {
   return <h1>Welcome to portfolio!!!</h1>;
 }
 function Contact() {
-  return <h1>Welcome to Contact!!!</h1>;
+  return <h1>Welcome to Contact!!!</h1>; 
 }
 export default App;
