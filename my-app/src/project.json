@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Code Quiz",
+        "image": "/images/codeQuiz.png",
+        "gitUrl": "https://github.com/aphernandez13/Javaquiz",
+        "deployedUrl": "https://aphernandez13.github.io/Javaquiz/"
+    },
+    {
+        "id": 2,
+        "name": "Day Planner",
+        "image": "/images/dayPlanner.png",
+        "gitUrl": "https://github.com/aphernandez13/schedule",
+        "deployedUrl": "https://aphernandez13.github.io/schedule/"
+    },
+    {
+        "id": 3,
+        "name": "Game Tracker",
+        "image": "/images/gameTracker.png",
+        "gitUrl": "https://github.com/robkellen/GameTracker",
+        "deployedUrl": "https://glacial-taiga-04215.herokuapp.com/"
+    },
+    {
+        "id": 4,
+        "name": "Marvel Match",
+        "image": "/images/marvelMatch.png",
+        "gitUrl": "https://github.com/robkellen/Marvel-Search-App",
+        "deployedUrl": "https://robkellen.github.io/Marvel-Search-App/"
+    },
+    {
+        "id": 5,
+        "name": "Password Generator",
+        "image": "/images/passwordGenerator.png",
+        "gitUrl": "https://github.com/aphernandez13/passwordgen",
+        "deployedUrl": "https://aphernandez13.github.io/passwordgen/"
+    },
+    {
+        "id": 6,
+        "name": "Portfolio",
+        "image": "/images/portfolio.png",
+        "gitUrl": "https://github.com/aphernandez13/about-portfolio",
+        "deployedUrl": "https://aphernandez13.github.io/about-portfolio/"
+    }
+
+]
+

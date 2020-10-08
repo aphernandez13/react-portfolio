@@ -1,8 +1,10 @@
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 import About from "./pages/about";
+import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
@@ -11,16 +13,13 @@ function App() {
       <Navbar />
       <Route exact path="/" component={About} />
       <Route exact path="/Portfolio" component={Portfolio} />
-      <Route exact path="/Contact" component={Contact} />
+      <Footer />
+
     </div>
     </BrowserRouter>
   )
 }
 
-function Portfolio() {
-  return <h1>Welcome to portfolio!!!</h1>;
-}
-function Contact() {
-  return <h1>Welcome to Contact!!!</h1>; 
-}
+
+
 export default App;

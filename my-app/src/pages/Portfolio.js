@@ -1,11 +1,27 @@
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
+import React, { Component } from "react";
+import ProjectsCard from "../components/ProjectsCard";
+import Wrapper from "../components/Wrapper";
+import Title from "../components/Title";
+import projects from "../project.json";
+export default class Portfolio extends Component {
+  state = {
+    projects,
+  };
+  render() {
+    return (
+      <Wrapper>
+        <Title>Projects List</Title>
+        {this.state.projects.map(project => (
+          <ProjectsCard
+            id={project.id}
+            key={project.id}
+            name={project.name}
+            image={project.image}
+            gitUrl={project.gitUrl}
+            deployedUrl={project.deployedUrl}
+          />
+        ))}
+      </Wrapper>
+    );
+  }
+}
