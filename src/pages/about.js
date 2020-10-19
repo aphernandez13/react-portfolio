@@ -30,7 +30,7 @@ function About() {
               girlfriend and we just bought a beautiful home here in east Mesa.
               I was born in Mexico and then moved here when i was 4 years old
               then once I graduated high school i moved to Texas. I recently
-              moved back to here to Arizona about 3 years ago and i could not be
+              moved back to here to Arizona about 3 1/2 years ago and i could not be
               any happier! I am so excited to see what type of career I get once I
               graduate from this coding bootcamp.
             </p>
