@@ -32,7 +32,7 @@ function About() {
               then once I graduated high school i moved to Texas. I recently
               moved back to here to Arizona about 3 years ago and i could not be
               any happier! I am excited to see what type of career I get once I
-              graduate from coding bootcamp.
+              graduate from this coding bootcamp.
             </p>
           </div>
           <div className="col col-md-6">
