@@ -23,7 +23,7 @@ function About() {
         <div className="row">
           <div className="col col-md-6">
             <p>
-              Hi my name is Alfredo Pedroza and I am new to coding! Ive always
+              Hi my name is Alfredo Pedroza Hernandez and I am new to coding! Ive always
               been interested in working with computers and phones. I use to
               jailbreak my Iphones back in high school and it was amazing! A
               little bit about me is that I have 2 kids and one amazing
